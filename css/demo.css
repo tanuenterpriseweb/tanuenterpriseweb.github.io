@@ -25,8 +25,8 @@ body {
     font-size: 100%;
     line-height: 24px;
     margin: 0;
-	padding:0;
-	font-family: "Raleway",sans-serif;
+    padding:0;
+    font-family: "Raleway",sans-serif;
 }
 a{
 	font-family: "Raleway",sans-serif;
@@ -117,7 +117,7 @@ h2 span {
 	text-align:center;
 }
 .Scriptcontent{
-	line-height:28px;	
+	/* line-height:28px; */
 }
 .ScriptHeader h1{
 	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;

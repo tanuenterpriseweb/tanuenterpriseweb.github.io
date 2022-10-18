@@ -1,4 +1,17 @@
 /********** Template CSS **********/
+
+.hide-gallery-item{
+    visibility: collapse;
+    flex: none !important;
+    flex-basis: 0 !important;
+    margin: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
 :root {
     --primary: #2D85C5;
     --secondary: #61BDEE;
