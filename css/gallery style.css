@@ -390,8 +390,11 @@
   flex-direction: column;
 }
 .Gallery-image {
+ 
   padding: 0 0 1rem 0;
   display: block;
+  width: 20rem;
+  height: 20rem;
   /* width: 15rem;
   height: 9.5rem; */
   transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
@@ -399,6 +402,11 @@
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
+}
+.Gallery-image:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 5px black;
 }
 .Gallery-image--primary {
   width: 31rem;
