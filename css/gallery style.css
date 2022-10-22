@@ -5,13 +5,13 @@
 .Grid-row {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 2.5rem;
 }
 .Card {
   position: relative;
   flex: 0 1 15rem;
   background-color: #fff;
   padding-bottom: 5rem;
+  margin-bottom: 2rem;
   transition: background-color 0.2s cubic-bezier(0.5, 0.3, 0.8, 0.06);
   color: #000;
   padding-left: 0;
@@ -184,14 +184,17 @@
   height: 9.5rem; */
   transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
   /* background: #aebfc7; */
+  background: #c3c3c3;
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
+  border-style: ridge;
+  border-width: 0.25rem;
 }
 .Gallery-image:hover {
   cursor: pointer;
   transform: scale(1.2);
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px #00000047;
 }
 .Gallery-image--primary {
   width: 31rem;
