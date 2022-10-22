@@ -24,6 +24,7 @@ function openGallery(id) {
   navBar.hidden = true;
   const gallery = document.getElementById("gallery-" + id);
   const card = document.getElementById("card-" + id);
+  gallery.classList.remove("hide-gallery");
   gallery.classList.add("Gallery--active");
   card.classList.add("Card--active");
 }
@@ -33,6 +34,7 @@ function closeAll() {
   const cardActv = document.querySelector(".Card--active");
   if (galleryActv) {
     galleryActv.classList.remove("Gallery--active");
+    galleryActv.classList.remove("hide-gallery");
   }
   if (cardActv) {
     cardActv.classList.remove("Card--active");

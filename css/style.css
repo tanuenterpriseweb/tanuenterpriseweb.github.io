@@ -13,7 +13,7 @@
   transform: scale3d(110);
 }
 
-.hide-gallery-item {
+.hide-gallery {
   visibility: collapse;
   flex: none !important;
   flex-basis: 0 !important;
