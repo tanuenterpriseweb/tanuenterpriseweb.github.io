@@ -20,7 +20,7 @@
 
     <!-- Icon Font Stylesheet -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       rel="stylesheet"
     />
     <link
@@ -30,7 +30,6 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -62,7 +61,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav
+    <nav id="topNavBar"
       class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
     >
       <a href="index.html">
@@ -128,205 +127,104 @@ Our product range includes a wide range of office containers, small site office 
     </div>
     <!-- Service Start -->
     <div class="container-fluid px-lg-0">
-      <div class="Scriptcontent container px-lg-0">
-        <div class="row">
-          <!--set 1-->
-          <div class="gallery col-sm">
-            <div class="gallery-item item-3x3">
-              <img
-                class="thumb placeholder"
-                src="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-src="./img/Thumbnails/Grand OC T.jpg"
-                data-image="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-title="Grand office rooms in Containers"
-                alt="Grand office rooms in Containers"
-              />
-              <span>Caption 2</span>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-title="Photo by Daniel J. Schwarz (3)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 3</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-title="Photo by Daniel J. Schwarz (4)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 4</span></div>
-            </div>
+      <div class="Grid-row row">
+        <div class="Card col-md-4" onClick="openGallery(1)" id="card-1">
+          <div class="Card-thumb">
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-image" style="background-image: url(https://robohash.org/1)"></div>
           </div>
-          
-          <!--set 2-->
-          <div class="gallery col-sm">
-            <div class="gallery-item item-3x3">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-2.jpg"
-                data-src="./img/Thumbnails/Office C T.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-2.jpg"
-                data-title="Photo by Daniel J. Schwarz (2)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div><span>Caption 2</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-title="Photo by Daniel J. Schwarz (3)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 3</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-title="Photo by Daniel J. Schwarz (4)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 4</span></div>
-            </div>
-          </div>
-
-          <!--set 3-->
-          
-          <div class="gallery col-sm">
-            <div class="gallery-item item-3x3">
-              <img
-                class="thumb placeholder"
-                src="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-src="./img/Thumbnails/Grand OC T.jpg"
-                data-image="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-title="Grand office rooms in Containers"
-                alt="Grand office rooms in Containers"
-              />
-              <div class="caption"><span>Caption 2</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-title="Photo by Daniel J. Schwarz (3)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 3</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-title="Photo by Daniel J. Schwarz (4)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 4</span></div>
-            </div>
+          <div class="Card-title">
+            <span>Super interesting card</span>
           </div>
         </div>
-        <div class="row">
-          <!--set 4-->
-          
-          <div class="gallery col-sm">
-            <div class="gallery-item item-4x3">
-              <img
-                class="thumb placeholder"
-                src="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-src="./img/Thumbnails/Grand OC T.jpg"
-                data-image="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-title="Grand office rooms in Containers"
-                alt="Grand office rooms in Containers"
-              />
-              <div class="caption"><span>Caption 2</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-title="Photo by Daniel J. Schwarz (3)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 3</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-title="Photo by Daniel J. Schwarz (4)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 4</span></div>
-            </div>
+        <div class="Card col-md-4" onClick="openGallery(2)" id="card-2">
+          <div class="Card-thumb">
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-image" style="background-image: url(https://robohash.org/2)"></div>
           </div>
-
-          <!--set 5-->
-          
-          <div class="gallery col-sm">
-            <div class="gallery-item item-4x3">
-              <img
-                class="thumb placeholder"
-                src="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-src="./img/Thumbnails/Grand OC T.jpg"
-                data-image="./img/GRAND OFFICE ROOMS IN CONTAINERS/GRAND OFFICE ROOMS IN CONTAINERS/IMG-20221006-WA0101.jpg"
-                data-title="Grand office rooms in Containers"
-                alt="Grand office rooms in Containers"
-              />
-              <div class="caption"><span>Caption 2</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-3.jpg"
-                data-title="Photo by Daniel J. Schwarz (3)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 3</span></div>
-            </div>
-
-            <div class="gallery-item hide-gallery-item">
-              <img
-                class="thumb placeholder"
-                src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-src="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-image="https://codeconvey.com/Tutorials/global-images/image-4.jpg"
-                data-title="Photo by Daniel J. Schwarz (4)"
-                alt="Photo by Daniel J. Schwarz"
-              />
-              <div class="caption"><span>Caption 4</span></div>
-            </div>
+          <div class="Card-title">
+            <span>Super interesting card</span>
+          </div>
+        </div>
+        <div class="Card col-md-4" onClick="openGallery(3)" id="card-3">
+          <div class="Card-thumb">
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-image" style="background-image: url(https://robohash.org/3)"></div>
+          </div>
+          <div class="Card-title"><span>Super interesting card</span></div>
+        </div>
+      </div>
+      <div class="Grid-row row">
+        <div class="Card col-md-4" onClick="openGallery(4)" id="card-4">
+          <div class="Card-thumb">
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-image" style="background-image: url(https://robohash.org/4)"></div>
+          </div>
+          <div class="Card-title">
+            <span>Super interesting card</span>
+          </div>
+        </div>
+        <div class="Card col-md-4" onClick="openGallery(5)" id="card-5">
+          <div class="Card-thumb">
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-shadow"></div>
+            <div class="Card-image" style="background-image: url(https://robohash.org/5)"></div>
+          </div>
+          <div class="Card-title"><span>Super interesting card</span></div>
+        </div>
+      </div>
+      
+      <div>
+        <div class="Gallery container-fluid px-lg-0" id="gallery-1">
+          <div style="position: relative;"><i class="fa-sharp fa-solid fa-circle-xmark" onclick="closeAll()"></i></div>
+          <div class="Gallery-images row">
+            <div class="Gallery-image col-lg-6" onclick="openGalleryImage(this)" style="background-image: url(./img/OTHERS/OTHERS/IMG-20221006-WA0081.jpg)"></div>
+            <div class="Gallery-image col-lg-6" onclick="openGalleryImage(this)" style="background-image: url(./img/OTHERS/OTHERS/IMG-20221006-WA0080.jpg)"></div>
+            <div class="Gallery-image col-lg-6" onclick="openGalleryImage(this)" style="background-image: url(./img/OTHERS/OTHERS/IMG-20221006-WA0079.jpg)"></div>
+          </div>
+        </div>
+        <div class="Gallery container-fluid px-lg-0" id="gallery-2">
+          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+          <div class="Gallery-images row">
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6" style="background-image: url(https://robohash.org/2)"></div>
+          </div>
+          </div>
+        </div>
+        <div class="Gallery container-fluid px-lg-0" id="gallery-3">
+          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+          <div class="Gallery-images row">
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6" style="background-image: url(https://robohash.org/2)"></div>
+          </div>
+          </div>
+        </div>
+        <div class="Gallery container-fluid px-lg-0" id="gallery-4">
+          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+          <div class="Gallery-images row">
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6" style="background-image: url(https://robohash.org/2)"></div>
+          </div>
+          </div>
+        </div>
+        <div class="Gallery container-fluid px-lg-0" id="gallery-5">
+          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+          <div class="Gallery-images row">
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6"></div>
+            <div class="Gallery-image col-lg-6" style="background-image: url(https://robohash.org/2)"></div>
+          </div>
           </div>
         </div>
       </div>
@@ -392,5 +290,7 @@ Our product range includes a wide range of office containers, small site office 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/gallery.js"></script>
+    <script src="./js/simpleLightbox.min.js"></script>
+    <link href="./css/simpleLightbox.min.css" rel="stylesheet"/>
   </body>
 </html>

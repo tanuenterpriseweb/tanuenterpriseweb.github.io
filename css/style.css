@@ -1,5 +1,18 @@
 /********** Template CSS **********/
 
+.no-scroll{
+    overflow: hidden !important;
+}
+
+.gallery-thumb-image {
+    border-radius: 2px;
+    border-style: var(--secondary);
+}
+
+.gallery-thumb-image:hover {
+    transform: scale3d(110);
+}
+
 .hide-gallery-item{
     visibility: collapse;
     flex: none !important;
