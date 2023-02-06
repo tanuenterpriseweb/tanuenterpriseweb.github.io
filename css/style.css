@@ -27,7 +27,7 @@
 
 :root {
   --primary: #2d85c5;
-  --secondary: #61bdee;
+  --secondary: #2B71A3;
   --light: #f8f2f0;
   --dark: #060315;
 }
@@ -43,7 +43,7 @@
   bottom: 45px;
   z-index: 99;
 }
-
+ 
 /*** Spinner ***/
 #spinner {
   opacity: 0;
